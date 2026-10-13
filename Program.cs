@@ -1,3 +1,4 @@
-﻿using LearningCsharp.Operadores;
+﻿using LearningCsharp.Fundamentos;
+using LearningCsharp.Operadores;
 
-Operadores.Ejecutar();
+PalabrasReservadas.Ejecutar();

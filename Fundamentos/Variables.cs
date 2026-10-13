@@ -7,9 +7,14 @@ public class Variables
 
     public static void Ejecutar()
     {
-        Console.WriteLine("--- Variable ---");
-        int edad = 25;
-        string nombre = "Walter";
-        Console.WriteLine($"Hola {nombre} , tienes {edad} años");
+        int myNum = 5;
+        double myDoubleNum = 5.99D;
+        char myLetter = 'D';
+        bool myBool = true;
+        string myText = "Hello";
+
+
+        Console.WriteLine(myNum);
+        Console.WriteLine(Convert.ToInt32(myDoubleNum));
     }
 }
